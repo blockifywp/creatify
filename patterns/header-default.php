@@ -9,7 +9,7 @@
 <!-- wp:group {"align":"full","style":{"\u002d\u002dposition":"absolute","\u002d\u002dinset":"0px 0px auto 0px","position":{"all":"absolute"},"zIndex":{"all":"1"},"top":{"all":"0px"},"right":{"all":"0px"},"bottom":{"all":""},"left":{"all":"0px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"5px","right":"5px","bottom":"5px","left":"5px"}},"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"14px"},"position":{"all":"relative"}},"textColor":"foreground","className":"is-style-dark","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group alignfull is-style-dark has-foreground-color has-text-color" style="padding-top:5px;padding-right:5px;padding-bottom:5px;padding-left:5px;font-size:14px;font-style:normal;font-weight:600"><!-- wp:paragraph {"className":""} -->
-<p>Save 50% on memberships for a limited time only →</p>
+<p><?php echo __('Save 50% on memberships for a limited time only →', 'creatify'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -37,7 +37,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"60%","style":{"display":{"mobile":"none"}}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%"><!-- wp:navigation {"ref":19,"textColor":"foreground","icon":"menu","layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap"},"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":1,"fontSize":"17px"},"spacing":{"blockGap":"0"}}} /--></div>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%"><!-- wp:navigation {"textColor":"foreground","icon":"menu","layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap"},"style":{"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":1,"fontSize":"17px"},"spacing":{"blockGap":"0"}}} /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center"} -->
@@ -59,7 +59,7 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:navigation {"ref":19,"overlayMenu":"always","overlayBackgroundColor":"foreground","overlayTextColor":"surface","style":{"display":{"desktop":"none"}},"fontSize":"medium"} /--></div>
+<!-- wp:navigation {"overlayMenu":"always","overlayBackgroundColor":"foreground","overlayTextColor":"surface","style":{"display":{"desktop":"none"}},"fontSize":"medium"} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

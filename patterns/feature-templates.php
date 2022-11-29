@@ -3,7 +3,7 @@
  * Title: Feature Templates
  * Slug: feature-templates
  * Categories: feature
- * 
+ *
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|md","bottom":"var:preset|spacing|xl"},"margin":{"top":"0"}}},"layout":{"type":"constrained","contentSize":""}} -->
@@ -36,7 +36,7 @@
 
 <!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|lg"}}}} -->
 <div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--lg)"><!-- wp:image {"id":58,"sizeSlug":"large","linkDestination":"none","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|sm"}}},"className":"","boxShadow":{"useDefault":true}} -->
-<figure class="wp-block-image size-large has-box-shadow" style="margin-bottom:var(--wp--preset--spacing--sm)"><img src="<?php echo home_url() ?>/wp-content/uploads/sites/17/2022/11/screenshot-1024x768.png" alt="" class="wp-image-58"/></figure>
+<figure class="wp-block-image size-large has-box-shadow" style="margin-bottom:var(--wp--preset--spacing--sm)"><img src="<?php echo esc_url(home_url()) ?>/wp-content/uploads/sites/17/2022/11/screenshot-1024x768.png" alt="" class="wp-image-58"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":61,"sizeSlug":"large","linkDestination":"none","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|sm"}}},"className":"","boxShadow":{"useDefault":true}} -->
