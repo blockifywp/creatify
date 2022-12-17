@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Creatify 0.1.1\n"
+"Project-Id-Version: Creatify 0.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/creatify\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-11-29T13:38:31+00:00\n"
+"POT-Creation-Date: 2022-12-17T10:28:11+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: creatify\n"
@@ -23,7 +23,7 @@ msgid "https://blockifywp.com/themes/creatify"
 msgstr ""
 
 #. Description of the theme
-msgid "Modern full site editing child theme for Blockify. Perfect for SaaS companies, startups, agencies, freelancer portfolios, crypto or any digital product or service business."
+msgid "Full site editing block theme perfect for agencies, creatives, and portfolios looking to showcase their work in a modern and professional way. Easily customize every aspect of your website using the powerful block editor. No coding skills are required, just drag and drop the blocks you need to create the layout you want. Fully compatible with the Blockify plugin, which means you can use all of its features to create beautiful, interactive pages with ease."
 msgstr ""
 
 #. Author of the theme
@@ -34,8 +34,13 @@ msgstr ""
 msgid "https://blockifywp.com/"
 msgstr ""
 
-#: patterns/header-default.php:12
-msgid "Save 50% on memberships for a limited time only →"
+#: patterns/header-default.php:18
+msgid "Services"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "90px"
 msgstr ""
 
 #: theme.json
@@ -110,7 +115,7 @@ msgstr ""
 
 #: theme.json
 msgctxt "Font family name"
-msgid "Flow Block"
+msgid "Unbounded"
 msgstr ""
 
 #: theme.json
@@ -165,37 +170,17 @@ msgstr ""
 
 #: theme.json
 msgctxt "Gradient name"
-msgid "Primary"
-msgstr ""
-
-#: theme.json
-msgctxt "Gradient name"
-msgid "Primary Light"
-msgstr ""
-
-#: theme.json
-msgctxt "Gradient name"
-msgid "Iconic"
-msgstr ""
-
-#: theme.json
-msgctxt "Gradient name"
-msgid "Primary Dark"
-msgstr ""
-
-#: theme.json
-msgctxt "Gradient name"
-msgid "Conic Dark"
-msgstr ""
-
-#: theme.json
-msgctxt "Gradient name"
 msgid "Background Transparent Blur"
 msgstr ""
 
 #: theme.json
 msgctxt "Gradient name"
 msgid "Transparent Background Blur"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Transparent Foreground"
 msgstr ""
 
 #: theme.json
@@ -231,4 +216,24 @@ msgstr ""
 #: theme.json
 msgctxt "Space size name"
 msgid "XXL"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Full Width"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
 msgstr ""

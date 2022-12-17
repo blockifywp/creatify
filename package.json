@@ -1,11 +1,10 @@
 {
   "name": "blockify-creatify",
-  "description": "Creatify theme for Blockify.",
+  "description": "Creatify WordPress theme.",
   "author": "Blockify",
   "license": "GPL-2.0-or-later",
   "scripts": {
-    "pot": "wp i18n make-pot ./ languages/creatify.pot --exclude='wp,wp-content,vendor,tests,node_modules,build,assets,src'",
-    "zip": "rm -Rf ../../creatify.zip && zip -r ../../creatify.zip assets/ parts/ patterns/ styles/ templates/ languages/ readme.txt screenshot.png style.css theme.json",
-    "svn": "func() { npm run pot && npm run zip && cp ../../creatify.zip /Users/seothemes/Documents/Blockify/svn/creatify && cd /Users/seothemes/Documents/Blockify/svn/creatify && svn up && svn cp $1 $2 && cd $2 && rm -Rf ./* && cd .. && unzip creatify.zip -d $2 && rm creatify.zip && open -a Terminal .; }; func"
+    "pot": "wp i18n make-pot ./ languages/creatify.pot --exclude='assets,vendor'",
+    "zip": "rm -Rf ../../creatify.zip && zip -r ../../creatify.zip assets/ languages/ parts/ patterns/ styles/ templates/ vendor/ functions.php readme.txt screenshot.png style.css theme.json"
   }
 }

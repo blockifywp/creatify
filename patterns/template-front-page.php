@@ -7,13 +7,11 @@
  */
 
 require __DIR__ . '/hero-default.php';
+require __DIR__ . '/feature-marquee-services.php';
+require __DIR__ . '/feature-about.php';
+require __DIR__ . '/feature-services-accordion.php';
+require __DIR__ . '/feature-projects.php';
 require __DIR__ . '/feature-brands.php';
-require __DIR__ . '/feature-intro-text.php';
-require __DIR__ . '/feature-image-right.php';
-require __DIR__ . '/stats-left.php';
-require __DIR__ . '/feature-icons.php';
-require __DIR__ . '/testimonials-box.php';
-require __DIR__ . '/pricing-three-column.php';
-require __DIR__ . '/faq-accordion.php';
-require __DIR__ . '/cta-box.php';
+require __DIR__ . '/testimonial-single.php';
+require __DIR__ . '/contact-marquee.php';
 
