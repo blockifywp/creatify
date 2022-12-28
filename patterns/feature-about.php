@@ -18,8 +18,8 @@
 <p style="padding-bottom:var(--wp--preset--spacing--xs)">With our user-friendly platform and intuitive tools, we make it easy for our clients to showcase their work.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:cover {"url":"<?php echo content_url( "/themes/creatify/assets/img/" ) ?>1.png","id":170,"dimRatio":0,"align":"full","style":{"border":{"radius":"33px"}}} -->
-<div class="wp-block-cover alignfull" style="border-radius:33px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-170" alt="" src="<?php echo content_url( "/themes/creatify/assets/img/" ) ?>1.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
+<!-- wp:cover {"url":"<?php echo content_url( "/themes/creatify/assets/img/" ) ?>1.jpg","id":170,"dimRatio":0,"align":"full","style":{"border":{"radius":"33px"}}} -->
+<div class="wp-block-cover alignfull" style="border-radius:33px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-170" alt="" src="<?php echo content_url( "/themes/creatify/assets/img/" ) ?>1.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
 <p class="aligncenter has-text-align-center aligncenter" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>
