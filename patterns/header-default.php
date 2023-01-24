@@ -6,7 +6,7 @@
  * Block Types: core/template-part/header
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"0","left":"0"}},"position":{"all":"absolute"},"top":{"all":"0px"},"right":{"all":"0px"},"left":{"all":"0px"},"zIndex":{"all":"2"}},"className":"is-style-default","layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"0","left":"0"}},"position":"","top":"","right":"","left":"","zIndex":"","bottom":""},"className":"is-style-default","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull is-style-default" style="padding-right:0;padding-left:0"><!-- wp:columns {"verticalAlignment":"center","isStackedOnMobile":false,"align":"wide","style":{"spacing":{"blockGap":{"top":"0","left":"0"},"padding":{"top":"var:preset|spacing|sm","bottom":"var:preset|spacing|sm"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center is-not-stacked-on-mobile" style="padding-top:var(--wp--preset--spacing--sm);padding-bottom:var(--wp--preset--spacing--sm)"><!-- wp:column {"verticalAlignment":"center","width":"25%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:25%"><!-- wp:site-title {"level":4,"style":{"typography":{"textTransform":"uppercase"}}} /--></div>
@@ -44,7 +44,9 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:navigation {"textColor":"foreground","overlayMenu":"always","overlayBackgroundColor":"foreground","overlayTextColor":"background","layout":{"type":"flex","justifyContent":"right","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"var:preset|spacing|sm","margin":{"left":"var:preset|spacing|xxs"}},"display":{"desktop":"none"}},"fontSize":"20"} /--></div>
+<!-- wp:navigation {"textColor":"foreground","overlayMenu":"always","overlayBackgroundColor":"foreground","overlayTextColor":"background","layout":{"type":"flex","justifyContent":"right","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"var:preset|spacing|sm","margin":{"left":"var:preset|spacing|xxs"}},"display":{"desktop":"none"}},"fontSize":"20"} -->
+<!-- wp:page-list /-->
+<!-- /wp:navigation --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
