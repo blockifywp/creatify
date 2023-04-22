@@ -1,8 +1,8 @@
 === Creatify ===
 Contributors: blockify
 Requires at least: 6.1
-Tested up to: 6.1
-Stable tag: 0.3.4
+Tested up to: 6.2
+Stable tag: 0.4.0
 Requires PHP: 7.4
 License: GPL-2.0-or-later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -47,6 +47,11 @@ Source: https://pxhere.com/en/photo/1552743
 License: Creative Commons CC0
 
 == Changelog ==
+
+= 0.4.0 - 22 April 2023 =
+
+* Add: Nowrap to header button
+* Remove: Templates
 
 = 0.3.4 - 24 January 2023 =
 

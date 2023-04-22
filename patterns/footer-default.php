@@ -54,7 +54,7 @@
 <div class="wp-block-group alignwide"><!-- wp:site-title {"level":4,"style":{"typography":{"textTransform":"uppercase"}}} /-->
 
 <!-- wp:paragraph {"align":"wide","fontSize":"20"} -->
-<p class="alignwide has-text-align-wide has-20-font-size alignwide">Copyright © [year]. All rights reserved.</p>
+<p class="alignwide has-text-align-wide has-20-font-size alignwide">Copyright © {year}. All rights reserved.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
