@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Feature Links
- * Slug: feature-links
+ * Title: Links
+ * Slug: links
  * Categories: feature
  * 
  */

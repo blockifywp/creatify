@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Contact Marquee
- * Slug: contact-marquee
+ * Title: Marquee
+ * Slug: marquee
  * Categories: contact
  *
  */

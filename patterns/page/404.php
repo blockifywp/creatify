@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Template 404
- * Slug: template-404
+ * Title: 404
+ * Slug: 404
  * Categories: template
  * Inserter: false
  */
