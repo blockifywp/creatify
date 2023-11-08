@@ -1,10 +1,10 @@
 {
-  "name": "blockify-creatify",
-  "description": "Creatify WordPress theme.",
-  "author": "Blockify",
-  "license": "GPL-2.0-or-later",
-  "scripts": {
-    "pot": "wp i18n make-pot ./ languages/creatify.pot --exclude='assets,vendor'",
-    "zip": "rm -Rf ../../creatify.zip && zip -r ../../creatify.zip assets/ languages/ parts/ patterns/ styles/ templates/ functions.php readme.txt screenshot.png style.css theme.json"
-  }
+	"name": "blockify-creatify",
+	"description": "Creatify WordPress theme.",
+	"author": "Blockify",
+	"license": "GPL-2.0-or-later",
+	"scripts": {
+		"pot": "wp i18n make-pot ./ languages/creatify.pot --exclude='assets,vendor'",
+		"zip": "rm -Rf ../../creatify.zip && zip -r ../../creatify.zip assets/ languages/ patterns/ styles/ functions.php readme.txt screenshot.png style.css theme.json"
+	}
 }
