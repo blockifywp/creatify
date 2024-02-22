@@ -1,13 +1,12 @@
 <?php
 /**
- * Title: Services Accordion
+ * Title: Feature Services Accordion
  * Slug: services-accordion
  * Categories: feature
- * ID: 22
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xxl","bottom":"var:preset|spacing|xxl"},"margin":{"top":"0"}},"border":{"top":{"width":"1px"},"bottom":{"width":"1px"}}},"backgroundColor":"background","className":"is-style-dark","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-dark has-background-background-color has-background" style="border-top-width:1px;border-bottom-width:1px;margin-top:0;padding-top:var(--wp--preset--spacing--xxl);padding-bottom:var(--wp--preset--spacing--xxl)"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xxl","bottom":"var:preset|spacing|xxl"},"margin":{"top":"0"}},"border":{"top":{"width":"1px"},"bottom":{"width":"1px"}},"elements":{"link":{"color":{"text":"var:preset|color|neutral-600"}}}},"backgroundColor":"neutral-0","textColor":"neutral-600","className":"is-style-dark","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-dark has-neutral-600-color has-neutral-0-background-color has-text-color has-background has-link-color" style="border-top-width:1px;border-bottom-width:1px;margin-top:0;padding-top:var(--wp--preset--spacing--xxl);padding-bottom:var(--wp--preset--spacing--xxl)"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"bottom","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|md"},"blockGap":{"top":"var:preset|spacing|md","left":"var:preset|spacing|md"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-bottom" style="padding-bottom:var(--wp--preset--spacing--md)"><!-- wp:column {"verticalAlignment":"bottom","width":""} -->
 <div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:heading {"style":{"typography":{"textTransform":"uppercase","lineHeight":"1.1"}},"className":"wp-block-heading","fontSize":"60"} -->
@@ -21,7 +20,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 <!-- wp:list {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0"},"border":{"top":{"width":"1px"},"radius":"0px"},"typography":{"textDecoration":"none"}},"textColor":"heading","className":"is-style-accordion","fontSize":"42"} -->
-<ul class="is-style-accordion has-heading-color has-text-color has-42-font-size" style="border-radius:0px;border-top-width:1px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;text-decoration:none"><!-- wp:list-item {"style":{"border":{"bottom":{"width":"1px"}},"spacing":{"padding":{"top":"var:preset|spacing|md","bottom":"var:preset|spacing|md"},"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
+<ul style="border-radius:0px;border-top-width:1px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;text-decoration:none" class="is-style-accordion has-heading-color has-text-color has-42-font-size"><!-- wp:list-item {"style":{"border":{"bottom":{"width":"1px"}},"spacing":{"padding":{"top":"var:preset|spacing|md","bottom":"var:preset|spacing|md"},"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
 <li style="border-bottom-width:1px;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:var(--wp--preset--spacing--md);padding-bottom:var(--wp--preset--spacing--md)">01.  UI/UX Design<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
 <!-- /wp:list-item -->
 <!-- wp:list-item {"style":{"border":{"bottom":{"width":"1px"}},"spacing":{"padding":{"top":"var:preset|spacing|md","bottom":"var:preset|spacing|md"},"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
@@ -43,8 +42,8 @@
 <p>Upgrade and take your creativity to the next level with our services</p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"align":"wide","layout":{"type":"flex","justifyContent":"right"},"style":{"spacing":{"margin":{"top":"0"}},"typography":{"textTransform":"uppercase"}}} -->
-<div class="wp-block-buttons alignwide" style="margin-top:0;text-transform:uppercase"><!-- wp:button {"textColor":"neutral-900","style":{"border":{"width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|xs","right":"var:preset|spacing|xs","bottom":"var:preset|spacing|xs","left":"var:preset|spacing|xs"}}},"className":"is-style-outline","size":"large","iconSize":"20px","iconPosition":"end"} -->
-<div class="wp-block-button is-style-outline" style="border-width:1px;padding-top:var(--wp--preset--spacing--xs);padding-right:var(--wp--preset--spacing--xs);padding-bottom:var(--wp--preset--spacing--xs);padding-left:var(--wp--preset--spacing--xs)"><a class="wp-block-button__link has-neutral-900-color has-text-color wp-element-button" style="border-width:1px;padding-top:var(--wp--preset--spacing--xs);padding-right:var(--wp--preset--spacing--xs);padding-bottom:var(--wp--preset--spacing--xs);padding-left:var(--wp--preset--spacing--xs)">Get Started ↗</a></div>
+<div class="wp-block-buttons alignwide" style="margin-top:0;text-transform:uppercase"><!-- wp:button {"backgroundColor":"transparent","textColor":"neutral-900","style":{"border":{"width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|xs","right":"var:preset|spacing|xs","bottom":"var:preset|spacing|xs","left":"var:preset|spacing|xs"}}},"className":"is-style-outline","size":"large","iconSet":"","iconSize":"20px","iconPosition":"end"} -->
+<div class="wp-block-button is-style-outline" style="border-width:1px;padding-top:var(--wp--preset--spacing--xs);padding-right:var(--wp--preset--spacing--xs);padding-bottom:var(--wp--preset--spacing--xs);padding-left:var(--wp--preset--spacing--xs)"><a class="wp-block-button__link has-neutral-900-color has-transparent-background-color has-text-color has-background wp-element-button" style="border-width:1px;padding-top:var(--wp--preset--spacing--xs);padding-right:var(--wp--preset--spacing--xs);padding-bottom:var(--wp--preset--spacing--xs);padding-left:var(--wp--preset--spacing--xs)">Get Started   ↗</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

@@ -86,6 +86,9 @@
         "typography": {
           "fontWeight": "var(--wp--custom--font-weight--black)",
           "textTransform": "uppercase"
+        },
+        "color": {
+          "text": "var(--wp--preset--color--neutral-900)"
         }
       }
     }
