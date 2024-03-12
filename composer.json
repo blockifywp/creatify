@@ -27,6 +27,7 @@
     ]
   },
   "scripts": {
-    "zip": "composer archive --format=zip --file=../creatify"
+    "zip": "composer archive --format=zip --file=../creatify",
+    "pot": "wp i18n make-pot ./ languages/creatify.pot --exclude='assets'"
   }
 }

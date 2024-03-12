@@ -1,8 +1,8 @@
 === Creatify ===
 Contributors: blockify
-Requires at least: 6.2
+Requires at least: 6.4
 Tested up to: 6.4
-Stable tag: 0.5.0
+Stable tag: 0.6.0
 Requires PHP: 7.4
 License: GPL-2.0-or-later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -50,7 +50,11 @@ License: Creative Commons CC0
 
 = 0.6.0 - 12 March 2024 =
 
-
+* Add: Composer and zip script
+* Remove: Dark style variation (use toggle instead)
+* Update: Rename landing page pattern to home
+* Fix: Color slugs used in patterns
+* Fix: Image URLs in patterns
 
 = 0.5.0 - 8 November 2023 =
 
