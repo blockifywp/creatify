@@ -48,7 +48,11 @@ License: Creative Commons CC0
 
 == Changelog ==
 
-= 0.5.0 = 8 November 2023 =
+= 0.6.0 - 12 March 2024 =
+
+
+
+= 0.5.0 - 8 November 2023 =
 
 * Update: Blockify 1.3.0 and WordPress 6.4 compatibility
 
